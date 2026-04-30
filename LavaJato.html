@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilho Rápido - Sistema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧽 Brilho Rápido</h1>
+            <p>Controle de Fluxo Diário</p>
+        </header>
+        
+        <section class="resumo">
+            Atendimentos ativos: <span id="contador-total">0</span>
+        </section>
+
+        <form id="lavajato-form">
+            <input type="text" id="cliente" placeholder="Nome do Cliente ou Placa" required>
+            <select id="servico" required>
+                <option value="">Selecione o serviço...</option>
+                <option value="Lavagem Simples">Lavagem Simples</option>
+                <option value="Lavagem Completa">Lavagem Completa</option>
+                <option value="Enceramento">Enceramento Profissional</option>
+            </select>
+            <button type="submit">Registrar Entrada</button>
+        </form>
+
+        <div id="lista-veiculos">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

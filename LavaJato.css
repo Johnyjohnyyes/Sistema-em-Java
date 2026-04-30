@@ -1,0 +1,11 @@
+body { font-family: sans-serif; background-color: #f4f7f6; padding: 20px; }
+.container { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+header { text-align: center; margin-bottom: 20px; }
+.resumo { background: #e3f2fd; padding: 10px; border-radius: 8px; text-align: center; font-weight: bold; margin-bottom: 20px; color: #1976d2; }
+form { display: flex; flex-direction: column; gap: 10px; }
+input, select, button { padding: 12px; border-radius: 6px; border: 1px solid #ddd; font-size: 16px; }
+button { background-color: #2e7d32; color: white; border: none; cursor: pointer; font-weight: bold; }
+button:hover { background-color: #1b5e20; }
+.card-atendimento { border-left: 5px solid #2196f3; background: #fafafa; padding: 15px; margin-top: 15px; display: flex; justify-content: space-between; align-items: center; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.btn-check { background: #ff9800; font-size: 12px; padding: 8px; }
+.badge { background: #eee; padding: 3px 8px; border-radius: 12px; font-size: 12px; }
